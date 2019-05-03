@@ -1,7 +1,7 @@
 import PyDictionary as e
 h = e.PyDictionary()
 f = open("three.txt")
-
+print("Hiii")
 for i in f:
     print(i)
     print(h.meaning(i))
